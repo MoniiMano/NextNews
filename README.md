@@ -230,7 +230,7 @@ npm start
 
 ## 📄 License
 
-MIT License - feel free to use this project for your own news website or as a learning resource.
+License - feel free to use this project for your own news website or as a learning resource.
 
 ---
 
