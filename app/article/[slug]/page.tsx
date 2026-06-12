@@ -30,7 +30,8 @@ export async function generateMetadata({
 }
 
 export function generateStaticParams() {
-  return [...mockArticles, ...editorPicks].map((article) => ({
+  const allArticles = [...mockArticles, ...editorPicks];
+  return allArticles.map((article) => ({
     slug: article.slug,
   }));
 }
